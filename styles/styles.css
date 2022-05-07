@@ -101,6 +101,21 @@ a {
   color: var(--first-color);
   background-color: var(--third-color);
 }
+
+.picture {
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.picture-bigger {
+  max-width: 90%;
+  border-radius: 20px;
+}
+
+.picture-small {
+  max-width: 50%;
+  border-radius: 20px;
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 44px;
@@ -123,5 +138,10 @@ a {
   }
   .container-day {
     margin-top: 15px;
+  }
+  .picture,
+  .picture-bigger,
+  .picture-small {
+    display: none;
   }
 }
